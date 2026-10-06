@@ -51,8 +51,79 @@ img {
     font-weight: 300;
 }
 
-.content {}
+.content {
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
 
 .top-header {
     display: flex;
+    font-family: Graphik;
+    font-size: 12px;
+    gap: 24px;
+    color: #0000a4;
+    line-height: 8px;
+}
+
+.select {
+    background-color: #0000a4;
+    color: #01d572;
+    font-family: Produkt;
+    font-weight: bold;
+    font-size: 14px;
+    /* padding: 4px 12px 4px 12px; */
+    border-radius: 24px;
+    text-align: center;
+
+
+}
+
+.voordeel {
+    background-color: #ebffee;
+    border-radius: 26px;
+    padding-left: 2px;
+    padding-right: 5px;
+    height: 32px;
+    margin-left: 300px;
+    line-height: 8px;
+}
+
+.header {
+    display: flex;
+    background-color: #0000a4;
+    color: white;
+    height: 72px;
+}
+
+.bol {
+    margin-left: 20vw;
+    /* margin-right: 20vw; */
+    font-family: Graphik;
+    font-size: 40px;
+    line-height: 16px;
+}
+
+.search-bar {
+    font-family: Graphik;
+    font-size: 14px;
+    line-height: 44px;
+    color: #b8b8b8;
+    background-color: white;
+    padding: 0px 300px 0px 24px;
+    border-radius: 24px;
+    margin-left: 148px;
+    text-align: center;
+}
+
+.shophulp {
+    color: #0000a4;
+    background-color: white;
+    font-family: Produkt;
+    font-weight: bold;
+    font-size: 18px;
+    padding-inline: 20px;
+    margin-left: 8px;
+    border-radius: 20px;
+    height: 48px;
+    line-height: 48px;
 }
