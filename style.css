@@ -60,9 +60,9 @@ img {
     display: flex;
     font-family: Graphik;
     font-size: 12px;
-    gap: 24px;
     color: #0000a4;
     line-height: 8px;
+    justify-content: space-between;
 }
 
 .select {
@@ -71,9 +71,10 @@ img {
     font-family: Produkt;
     font-weight: bold;
     font-size: 14px;
-    /* padding: 4px 12px 4px 12px; */
+    padding: 3px 8px 4px 14px;
     border-radius: 24px;
     text-align: center;
+    letter-spacing: 0.5px;
 
 
 }
@@ -82,10 +83,14 @@ img {
     background-color: #ebffee;
     border-radius: 26px;
     padding-left: 2px;
-    padding-right: 5px;
+    padding-right: 8px;
     height: 32px;
-    margin-left: 300px;
-    line-height: 8px;
+    line-height: 0.5;
+}
+
+.align-left {
+    display: flex;
+    gap: 24px;
 }
 
 .header {
@@ -93,26 +98,27 @@ img {
     background-color: #0000a4;
     color: white;
     height: 72px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .bol {
     margin-left: 20vw;
-    /* margin-right: 20vw; */
-    font-family: Graphik;
-    font-size: 40px;
-    line-height: 16px;
+    object-fit: contain;
+    width: 82px;
+
 }
 
 .search-bar {
     font-family: Graphik;
     font-size: 14px;
-    line-height: 44px;
+    /* line-height: 44px; */
     color: #b8b8b8;
     background-color: white;
-    padding: 0px 300px 0px 24px;
+    padding-inline: 24px 300px;
     border-radius: 24px;
-    margin-left: 148px;
-    text-align: center;
+    /* margin-left: 148px; */
+    /* text-align: center; */
 }
 
 .shophulp {
@@ -122,8 +128,16 @@ img {
     font-weight: bold;
     font-size: 18px;
     padding-inline: 20px;
-    margin-left: 8px;
+    /* margin-left: 8px; */
     border-radius: 20px;
-    height: 48px;
-    line-height: 48px;
+    /* height: 48px; */
+    /* line-height: 48px; */
+}
+
+.header .align-center {
+    display: flex;
+}
+
+.inloggen {
+    margin-right: 20vw;
 }
