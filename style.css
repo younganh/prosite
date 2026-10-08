@@ -118,20 +118,18 @@ img {
     border-radius: 24px;
 }
 
-.search-icon {}
-
-.search-bar-container {}
-
-.shophulp {
-    color: #0000a4;
-    background-color: white;
-    font-family: Produkt;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 14px 20px 14px 20px;
-    /* margin-left: 8px; */
-    border-radius: 24px;
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
 }
+
+.search-bar-container {
+    position: relative;
+}
+
+.shophulp {}
 
 .header .align-center {
     display: flex;
@@ -151,7 +149,18 @@ img {
     font-size: 14px;
 }
 
-.shophulp-container {}
+.shophulp-container {
+    color: #0000a4;
+    background-color: white;
+    font-family: Produkt;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px 8px 0px 8px;
+    /* margin-left: 8px; */
+    border-radius: 24px;
+    display: flex;
+    gap: 8px;
+}
 
 .sparkle {}
 
