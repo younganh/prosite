@@ -235,3 +235,34 @@ img {
     width: 16px;
     height: 16px;
 }
+
+.center-content {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    background-color: #d2e1ff;
+}
+
+.najaarsdeals {
+    font-family: Produkt;
+    font-weight: 900;
+    font-size: 48px;
+    color: #0000a4;
+    margin: 0;
+}
+
+.deals {
+    font-family: Produkt;
+    font-weight: 300;
+    font-size: 48px;
+    color: #0000a4;
+    margin: 0;
+}
+
+.bekijk-nu {
+    font-family: Graphik;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    background-color: #0000ff;
+    width: 64px;
+}
