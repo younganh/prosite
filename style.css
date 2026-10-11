@@ -292,6 +292,8 @@ img {
     margin-top: 40px;
     font-family: Produkt;
     font-weight: 300;
+    display: flex;
+    justify-content: space-between;
 }
 
 .carousel-item {
@@ -305,6 +307,8 @@ img {
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
+    font-size: 18px;
+    position: relative;
 }
 
 .carousel-item strong {
@@ -317,10 +321,86 @@ img {
 
 .blue {
     background-color: #9fbef5;
-    font-size: 18px;
 }
 
 .carousel-image1 {
     object-fit: cover;
     height: 224px;
+}
+
+.orange {
+    background-color: #ffc687;
+}
+
+.carousel-image2 {
+    width: 140px;
+    object-fit: cover;
+    overflow: visible;
+    position: absolute;
+    right: 8px;
+    bottom: 10px;
+}
+
+.pink {
+    background-color: #ffb7bf;
+}
+
+.carousel-image3 {
+    height: 224px;
+    object-fit: cover;
+}
+
+.blue2 {
+    background-color: #9ebdf4;
+}
+
+.carousel-image4 {
+    height: 224px;
+    object-fit: cover;
+}
+
+.bottom-container {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 58px;
+    background-color: #9ebdf4;
+    font-family: Produkt;
+    font-size: 22px;
+    color: #0000a4;
+    line-height: 1.2;
+    height: 100px;
+    border-radius: 16px;
+    display: flex;
+    position: relative;
+}
+
+.bottom-container p {
+    padding-left: 24px;
+    padding-top: 12px;
+    margin: 0;
+}
+
+.bottom-image {
+    object-fit: cover;
+    height: 230px;
+    position: absolute;
+    top: 50%;
+    right: 256px;
+    transform: translateY(-50%);
+}
+
+.bekijk-hier {
+    font-family: Graphik;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    background-color: #0000ff;
+    width: 96px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
 }
