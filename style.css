@@ -286,4 +286,41 @@ img {
     clip-path: ellipse(56% 110%at 56%);
 }
 
-.carousel-item {}
+.carousel {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 40px;
+    font-family: Produkt;
+    font-weight: 300;
+}
+
+.carousel-item {
+    color: #0000a4;
+    padding-top: 6px;
+    width: 270px;
+    height: 224px;
+    border-radius: 16px;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.carousel-item strong {
+    font-weight: 900;
+}
+
+.carousel-item p {
+    padding-left: 24px;
+}
+
+.blue {
+    background-color: #9fbef5;
+    font-size: 18px;
+}
+
+.carousel-image1 {
+    object-fit: cover;
+    height: 224px;
+}
